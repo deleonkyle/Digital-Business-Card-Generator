@@ -1,78 +1,70 @@
-# Digital Business Card Generator
+# Getting Started with Create React App
 
-A simple and customizable Digital Business Card Generator built with React. Users can create and customize their digital business cards by entering their personal information, uploading a logo, and selecting templates and font styles.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- Real-time preview of the business card.
-- Upload a logo and display its name.
-- Choose from multiple templates.
-- Customize background color and font style.
-- Set font sizes for different information.
-- Generate a QR code for easy sharing.
-- Download the business card as a PDF.
+In the project directory, you can run:
 
-## Technologies Used
+### `npm start`
 
-- React.js
-- Material-UI (MUI)
-- react-hook-form
-- react-qrcode-logo
-- jsPDF (for PDF generation)
-- html2canvas (for capturing the preview as an image)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Installation
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. **Clone the repository:**
+### `npm test`
 
-   ```bash
-   git clone https://github.com/yourusername/digital-business-card.git
-   ```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2. **Navigate to the project directory:**
+### `npm run build`
 
-   ```bash
-   cd digital-business-card
-   ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. **Install the required dependencies:**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-   ```bash
-   npm install
-   ```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-4. **Run the application:**
+### `npm run eject`
 
-   ```bash
-   npm start
-   ```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-5. Open your browser and visit `http://localhost:3000` to view the application.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Usage
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. Fill in your personal details in the form fields.
-2. Upload a logo by clicking the "Upload Logo" button.
-3. Select your desired template, font style, and font sizes using the sliders.
-4. Click the "Generate Card" button to see a preview of your business card on the right side.
-5. Optionally, download the generated card as a PDF using the provided functionality.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Contributing
+## Learn More
 
-Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and create a pull request.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## License
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Code Splitting
 
-## Acknowledgments
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- Thanks to the creators of React, Material-UI, and other libraries used in this project.
-```
+### Analyzing the Bundle Size
 
-### Notes:
-- Replace `yourusername` in the clone command with your GitHub username.
-- You can modify the project description, features, and other sections according to your needs.
-- Don't forget to include any additional information related to usage, contribution guidelines, or acknowledgments as necessary.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Feel free to reach out if you need more assistance or further modifications!
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
