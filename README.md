@@ -26,7 +26,7 @@ A simple and customizable Digital Business Card Generator built with React. User
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/digital-business-card.git
+   git clone https://github.com/deleonkyle/digital-business-card.git
    ```
 
 2. **Navigate to the project directory:**
@@ -68,11 +68,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Thanks to the creators of React, Material-UI, and other libraries used in this project.
-```
-
-### Notes:
-- Replace `yourusername` in the clone command with your GitHub username.
-- You can modify the project description, features, and other sections according to your needs.
-- Don't forget to include any additional information related to usage, contribution guidelines, or acknowledgments as necessary.
-
-Feel free to reach out if you need more assistance or further modifications!
