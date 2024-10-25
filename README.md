@@ -96,11 +96,3 @@ For any inquiries or feedback, feel free to reach out:
 - **GitHub**: [deleonkyle](https://github.com/deleonkyle)
 
 ```
-
-### How to Use This Template
-
-1. Replace the placeholder text with your actual project information.
-2. Make sure to include any specific instructions that might be relevant to your project.
-3. Save this content as `README.md` in the root of your project directory. 
-
-This README provides a comprehensive overview of your project and guides users on how to get started and contribute. Let me know if you need any changes!
