@@ -2,7 +2,14 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  padding: 20px;
+}
+body {
+  margin: 0; /* Reset body margin */
+  padding: 0; /* Reset body padding */
+}
+
+html, body {
+  height: 100%; /* Make sure the height is full */
 }
 
 .business-card-form {

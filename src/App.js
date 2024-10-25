@@ -1,6 +1,10 @@
 // src/App.js
 import React, { useState, useRef } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import BusinessCardForm from './components/BusinessCardForm';
+import LandingPage from './components/LandingPage';
+import GetStarted from './components/GetStarted';
+import LearnMorePage from './components/LearnMorePage';
 import './App.css';
 
 const App = () => {
@@ -12,10 +16,19 @@ const App = () => {
   };
 
   return (
-    <div className="App">
-      <h1>Business Card Generator</h1>
-      <BusinessCardForm onSubmit={handleCardDataSubmit} cardData={cardData} cardRef={cardRef} />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route 
+            path="/form" 
+            element={<BusinessCardForm onSubmit={handleCardDataSubmit} cardData={cardData} cardRef={cardRef} />} 
+          />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/get-started" element={<GetStarted />} />
+          <Route path="/learn-more" element={<LearnMorePage />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 
