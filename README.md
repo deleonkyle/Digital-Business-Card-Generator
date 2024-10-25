@@ -1,6 +1,6 @@
 # Digital Business Card Generator
 
-Welcome to the Digital Business Card Generator! This project allows users to create, customize, and download digital business cards easily.
+Welcome to the Digital Business Card Generator project! This application allows users to create and customize their own digital business cards quickly and easily. Users can enter their personal information, customize the design, and download their business card as a PDF.
 
 ## Table of Contents
 
@@ -8,32 +8,33 @@ Welcome to the Digital Business Card Generator! This project allows users to cre
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
+- [Screenshots](#screenshots)
 - [License](#license)
 - [Contact](#contact)
 
 ## Features
 
-- Create and customize digital business cards
-- Preview the business card in real-time
-- Download business cards as PDFs
-- Generate QR codes for easy sharing
+- User-friendly interface for creating digital business cards
+- Customizable fields for name, job title, company, email, phone, and website
+- QR code generation for easy sharing of contact information
+- Options to customize colors, fonts, and styles
+- PDF download functionality for offline use
 
 ## Technologies Used
 
-- **React.js**: Front-end library for building user interfaces
-- **Material-UI (MUI)**: React components for faster and easier web development
-- **react-hook-form**: Form handling for React
-- **react-qrcode-logo**: Generate QR codes with logos
-- **jsPDF**: Generate PDF documents
-- **html2canvas**: Capture the business card preview as an image
+- **React.js**: Front-end framework for building the user interface
+- **Material-UI**: UI component library for React
+- **react-hook-form**: Library for handling forms in React
+- **react-qrcode-logo**: Library for generating QR codes
+- **jsPDF**: Library for generating PDF files
+- **html2canvas**: Library for capturing screenshots of the business card preview
 
 ## Installation
 
-To get started with this project, follow these steps:
+To get started with the Digital Business Card Generator, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/deleonkyle/Digital-Business-Card-Generator.git
 Navigate to the project directory:
@@ -41,36 +42,34 @@ Navigate to the project directory:
 bash
 Copy code
 cd Digital-Business-Card-Generator
-Install the required dependencies:
+Install the dependencies:
 
 bash
 Copy code
 npm install
-Usage
-To run the application locally, use the following command:
+Start the development server:
 
 bash
 Copy code
 npm start
-This will start the development server, and you can access the application at http://localhost:3000.
+Your application should now be running on http://localhost:3000.
 
-Customization
-You can customize the business card by modifying the following fields:
+Usage
+Open the application in your web browser.
+Fill out the form with your information.
+Customize the design as desired.
+Click on the Download PDF button to save your digital business card.
+Screenshots
 
-Name
-Job Title
-Company
-Email
-Phone
-Website
-LinkedIn Profile
-Twitter Profile
-Logo
-Colors and fonts
-The generated QR code can also be configured to link to your email, phone, or website.
-
-Contributing
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+(Replace path/to/screenshot.png with the actual path to your screenshot)
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+For inquiries or feedback, please reach out to:
+
+Name: Kyle Kristopher De Leon
+Email: deleonkylekristopher@gmail.com
+Phone: +63-995-510-8361
+sql
