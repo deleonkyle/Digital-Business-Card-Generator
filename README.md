@@ -1,6 +1,6 @@
 # Digital Business Card Generator
 
-![Project Logo](src/assets/logo.png) <!-- Replace with the actual logo path if available -->
+![Project Logo](/public/logo.png) <!-- Replace with the actual logo path if available -->
 
 A modern web application that allows users to create and customize digital business cards effortlessly. The application features options for various templates, QR code generation, and the ability to share contact details via email, phone, and social media platforms.
 
